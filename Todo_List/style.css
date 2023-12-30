@@ -1,0 +1,61 @@
+*{margin: 0;padding: 0;}
+
+form.form{width: 600px;position: relative;}
+input,select{width: 100%;}
+form.btn{position: absolute;}
+#message {
+    display:none;
+    color: #000;
+    position: absolute;
+    padding: 20px;
+    margin-top: 12px;
+    bottom:-11%;
+    z-index: 1;
+  }
+  table{
+   border-collapse: collapse;
+  }
+
+  table, th{
+    border: 1px solid black;
+    text-align: center;
+    white-space: nowrap;
+    padding:20px ;
+   }
+   td{border: 1px solid black;
+    text-align: center;}
+   tr th, tr td{
+    border: 2px solid black;
+   }
+  #message p {
+    padding: 15px 5px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  .valid {
+    color: green;
+  }
+  input.inputPassword6{width: 240px;padding-inline: 70px;}
+  .valid:before {
+    position: absolute;
+    left: -35px;
+    content: "";
+  }
+  .field-icon {
+    float: right;
+    margin-left: 300px;
+    margin-top: -32px;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: absolute;
+    left: -35px;
+    content: "";
+  }
